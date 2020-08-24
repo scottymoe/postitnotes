@@ -1,0 +1,10 @@
+<h1>New Page</h1>
+<%= form_for @postits do |f| %>
+  <%= f.label :postitname %>
+  <%= f.text_field :postitname %>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+  <%= f.label :postbody %>
+  <%= f.text_field :postbody %>
+  <%= f.submit %>
+<% end %>
