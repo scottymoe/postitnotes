@@ -9,8 +9,12 @@ class PostitsController < ApplicationController
   end
 
   def new
+    @postits = postits.new
   end
 
   def index
+  end
+
+  def edit
   end
 end

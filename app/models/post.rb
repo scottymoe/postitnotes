@@ -1,3 +1,3 @@
 class Post < ApplicationRecord
-  @postits = postits
+  @postit = postits
 end

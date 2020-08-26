@@ -1,0 +1,10 @@
+<h1>Edit Page</h1>
+<%= form_for @page do |f| %>
+  <%= f.label :postitname %>
+  <%= f.text_field :postitname %>
+  <%= f.label :author %>
+  <%= f.text_field :author %>
+  <%= f.label :postbody %>
+  <%= f.text_area :postbody %>
+  <%= f.submit %>
+<% end %>
